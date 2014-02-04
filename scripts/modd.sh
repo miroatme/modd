@@ -1,7 +1,7 @@
 #!/bin/bash
 view_pipe="pv -p -t -e -s "
 if [ -z $3 ] ; then
-    speed="1m"
+    speed="1M"
 else
     speed="$3"
 fi
